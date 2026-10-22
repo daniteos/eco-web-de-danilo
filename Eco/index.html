@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EcoVerde: información, educación y acciones para reducir los residuos y promover el reciclaje.">
+    <meta name="theme-color" content="#123f32">
+    <title>EcoVerde | Un futuro más sostenible</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header class="header" id="inicio">
+        <nav class="navbar container" aria-label="Navegación principal">
+
+            <a href="#inicio" class="logo">
+                <span class="logo-icon">♻</span>
+                <span>Eco<span class="logo-light">Verde</span></span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menu-toggle"
+                    aria-label="Abrir menú"
+                    aria-expanded="false"
+                    aria-controls="nav-links">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#reciclaje">Reciclaje</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#consejos">Consejos</a></li>
+                <li><a href="#contacto" class="nav-button">Contacto</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Portada con fondo dinámico -->
+        <section class="hero" id="portada">
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-content reveal">
+                <span class="eyebrow">CUIDEMOS NUESTRO PLANETA</span>
+
+                <h1>
+                    Un pequeño cambio.<br>
+                    <span>Un gran futuro.</span>
+                </h1>
+
+                <p>
+                    Promovemos el reciclaje, la reutilización y la
+                    educación ambiental para construir comunidades
+                    más limpias, responsables y sostenibles.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#reciclaje" class="btn btn-primary">
+                        Descubre cómo reciclar
+                    </a>
+
+                    <a href="#nosotros" class="btn btn-outline">
+                        Conoce nuestro propósito
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <span class="note-line"></span>
+                    CADA ACCIÓN CUENTA
+                </div>
+            </div>
+
+            <a href="#nosotros" class="scroll-down"
+               aria-label="Desplazarse hacia abajo">↓</a>
+        </section>
+
+        <!-- Franja de valores -->
+        <section class="values-strip">
+            <div class="container values-grid">
+                <article>
+                    <span class="value-number">01</span>
+                    <div>
+                        <h3>Reducir</h3>
+                        <p>Consumir de manera responsable.</p>
+                    </div>
+                </article>
+
+                <article>
+                    <span class="value-number">02</span>
+                    <div>
+                        <h3>Reutilizar</h3>
+                        <p>Dar nuevos usos a los objetos.</p>
+                    </div>
+                </article>
+
+                <article>
+                    <span class="value-number">03</span>
+                    <div>
+                        <h3>Reciclar</h3>
+                        <p>Separar los residuos correctamente.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Nosotros -->
+        <section class="section about" id="nosotros">
+            <div class="container about-grid">
+
+                <div class="about-image image-frame reveal">
+                    <!-- CAMBIA ESTA URL POR TU PROPIA IMAGEN -->
+                    <img
+                        src="imagen 2.jpeg"
+                        alt="Persona sosteniendo una planta en un entorno natural"
+                        loading="lazy">
+
+                    <div class="image-label">
+                        <span>🌱</span>
+                        <div>
+                            <strong>Un compromiso compartido</strong>
+                            <small>Por un entorno más saludable</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-text reveal">
+                    <span class="eyebrow dark-eyebrow">QUIÉNES SOMOS</span>
+                    <h2>El cambio comienza con nuestras decisiones.</h2>
+
+                    <p>
+                        EcoVerde es una iniciativa orientada a fomentar
+                        la conciencia ambiental mediante la información,
+                        la educación y las prácticas responsables de
+                        reciclaje.
+                    </p>
+
+                    <p>
+                        Creemos que cada persona puede contribuir a
+                        reducir la contaminación. Por eso, buscamos
+                        compartir conocimientos y promover acciones
+                        sencillas que ayuden a cuidar nuestro entorno.
+                    </p>
+
+                    <div class="about-points">
+                        <p><span>✓</span> Educación ambiental</p>
+                        <p><span>✓</span> Consumo responsable</p>
+                        <p><span>✓</span> Participación comunitaria</p>
+                    </div>
+
+                    <a href="#proyectos" class="text-link">
+                        Conoce nuestras iniciativas <span>→</span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Información de reciclaje -->
+        <section class="section recycling" id="reciclaje">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="eyebrow dark-eyebrow">APRENDE CON NOSOTROS</span>
+                    <h2>Los residuos pueden tener<br>una nueva oportunidad.</h2>
+                    <p>
+                        Conocer los materiales y separarlos correctamente
+                        es un paso importante para facilitar su recuperación
+                        y aprovechamiento.
+                    </p>
+                </div>
+
+                <div class="materials-grid">
+
+                    <article class="material-card reveal">
+                        <div class="material-image">
+                            <img
+                                src="imagen 3.jpeg"
+                                alt="Botellas y materiales plásticos para reciclar"
+                                loading="lazy">
+                            <span class="material-tag">01</span>
+                        </div>
+                        <div class="material-content">
+                            <h3>Plástico</h3>
+                            <p>
+                                Separa botellas, envases y otros plásticos
+                                aceptados por tu sistema local de reciclaje.
+                                Vacíalos y, si es necesario, enjuágalos.
+                            </p>
+                            <span class="material-tip">Consejo: evita mezclar
+                                residuos sucios con los reciclables.</span>
+                        </div>
+                    </article>
+
+                    <article class="material-card reveal">
+                        <div class="material-image">
+                            <img
+                                src="imagen 4.jpeg"
+                                alt="Papel y cartón para recuperación"
+                                loading="lazy">
+                            <span class="material-tag">02</span>
+                        </div>
+                        <div class="material-content">
+                            <h3>Papel y cartón</h3>
+                            <p>
+                                Las cajas y hojas limpias y secas pueden
+                                recuperarse. Dóblalas para ocupar menos
+                                espacio y mantenlas alejadas de la humedad.
+                            </p>
+                            <span class="material-tip">Consejo: reutiliza
+                                las hojas antes de desecharlas.</span>
+                        </div>
+                    </article>
+
+                    <article class="material-card reveal">
+                        <div class="material-image">
+                            <img
+                                src="imagen 5.jpeg"
+                                alt="Envases de vidrio que pueden recuperarse"
+                                loading="lazy">
+                            <span class="material-tag">03</span>
+                        </div>
+                        <div class="material-content">
+                            <h3>Vidrio</h3>
+                            <p>
+                                Algunos frascos y botellas de vidrio
+                                pueden reciclarse. Deposítalos en los
+                                lugares habilitados y evita los vidrios rotos.
+                            </p>
+                            <span class="material-tip">Consejo: comprueba
+                                qué tipos de vidrio se reciben localmente.</span>
+                        </div>
+                    </article>
+
+                    <article class="material-card reveal">
+                        <div class="material-image">
+                            <img
+                                src="imagen 1.jpeg"
+                                alt="Naturaleza y residuos orgánicos"
+                                loading="lazy">
+                            <span class="material-tag">04</span>
+                        </div>
+                        <div class="material-content">
+                            <h3>Residuos orgánicos</h3>
+                            <p>
+                                Ciertas cáscaras, restos vegetales y hojas
+                                pueden aprovecharse para elaborar compost,
+                                cuando se dispone de un sistema adecuado.
+                            </p>
+                            <span class="material-tip">Consejo: separa los
+                                restos orgánicos de los materiales reciclables.</span>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p class="section-footnote">
+                    Importante: los materiales aceptados pueden variar
+                    según el municipio y el centro de recuperación.
+                </p>
+            </div>
+        </section>
+
+        <!-- Banner ambiental -->
+        <section class="mission-banner">
+            <div class="mission-shade"></div>
+            <div class="container mission-content reveal">
+                <span class="eyebrow">NUESTRO PROPÓSITO</span>
+                <h2>Menos residuos.<br>Más vida para nuestro planeta.</h2>
+                <p>
+                    La sostenibilidad se construye con hábitos diarios,
+                    decisiones conscientes y el compromiso de todos.
+                </p>
+                <a href="#contacto" class="btn btn-light">
+                    Súmate al cambio
+                </a>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section class="section projects" id="proyectos">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="eyebrow dark-eyebrow">NUESTRAS INICIATIVAS</span>
+                    <h2>Ideas que pueden transformar el entorno.</h2>
+                    <p>
+                        Propuestas que puedes adaptar a tu colegio,
+                        barrio, comunidad o emprendimiento ambiental.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card reveal">
+                        <span class="project-number">01 / EDUCACIÓN</span>
+                        <div class="project-icon">♧</div>
+                        <h3>Educación ambiental</h3>
+                        <p>
+                            Charlas, exposiciones y materiales educativos
+                            para aprender a separar los residuos y cuidar
+                            los espacios comunes.
+                        </p>
+                        <a href="#contacto" class="text-link">
+                            Más información →
+                        </a>
+                    </article>
+
+                    <article class="project-card featured reveal">
+                        <span class="project-number">02 / COMUNIDAD</span>
+                        <div class="project-icon">♻</div>
+                        <h3>Reciclaje comunitario</h3>
+                        <p>
+                            Promover puntos de acopio y jornadas de
+                            recolección coordinadas con vecinos,
+                            instituciones y recicladores.
+                        </p>
+                        <a href="#contacto" class="text-link">
+                            Más información →
+                        </a>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <span class="project-number">03 / REUTILIZACIÓN</span>
+                        <div class="project-icon">✳</div>
+                        <h3>Nuevos usos</h3>
+                        <p>
+                            Convertir materiales recuperados en objetos
+                            útiles mediante actividades creativas y
+                            proyectos escolares.
+                        </p>
+                        <a href="#contacto" class="text-link">
+                            Más información →
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Consejos -->
+        <section class="section tips" id="consejos">
+            <div class="container tips-grid">
+
+                <div class="tips-intro reveal">
+                    <span class="eyebrow dark-eyebrow">PEQUEÑOS HÁBITOS</span>
+                    <h2>Reciclar mejor empieza en casa.</h2>
+                    <p>
+                        No necesitas cambiarlo todo de un día para otro.
+                        Comienza con acciones sencillas y conviértelas
+                        en hábitos.
+                    </p>
+
+                    <img
+                        class="tips-image"
+                        src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=900&q=85"
+                        alt="Planta verde que representa el cuidado ambiental"
+                        loading="lazy">
+                </div>
+
+                <div class="tips-list reveal">
+                    <article class="tip-item">
+                        <span>01</span>
+                        <div>
+                            <h3>Separa los residuos</h3>
+                            <p>
+                                Utiliza recipientes identificados y
+                                sigue las indicaciones de tu localidad.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="tip-item">
+                        <span>02</span>
+                        <div>
+                            <h3>Reduce lo innecesario</h3>
+                            <p>
+                                Evita productos de un solo uso cuando
+                                existan alternativas prácticas.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="tip-item">
+                        <span>03</span>
+                        <div>
+                            <h3>Reutiliza antes de desechar</h3>
+                            <p>
+                                Repara, dona o encuentra nuevos usos
+                                para los objetos en buen estado.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="tip-item">
+                        <span>04</span>
+                        <div>
+                            <h3>Busca puntos de acopio</h3>
+                            <p>
+                                Infórmate sobre los lugares que reciben
+                                los materiales que deseas recuperar.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Llamada a la acción -->
+        <section class="join-section">
+            <div class="container join-content reveal">
+                <div>
+                    <span class="eyebrow">EL FUTURO ES UNA TAREA COMPARTIDA</span>
+                    <h2>Hagamos del reciclaje un hábito.</h2>
+                </div>
+                <a href="#contacto" class="btn btn-light">
+                    Contáctanos →
+                </a>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section class="section contact" id="contacto">
+            <div class="container contact-grid">
+
+                <div class="contact-info reveal">
+                    <span class="eyebrow dark-eyebrow">HABLEMOS</span>
+                    <h2>Conectemos por un futuro más verde.</h2>
+                    <p>
+                        ¿Tienes una idea, deseas colaborar o necesitas
+                        información sobre reciclaje? Escríbenos.
+                    </p>
+
+                    <!-- REEMPLAZA ESTOS DATOS POR LOS REALES -->
+                    <div class="contact-detail">
+                        <span class="detail-icon">☎</span>
+                        <div>
+                            <small>Teléfono / WhatsApp</small>
+                            <a href="tel:+59170000000">+591 70000000</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <span class="detail-icon">✉</span>
+                        <div>
+                            <small>Correo electrónico</small>
+                            <a href="mailto:contacto@tudominio.com">
+                                contacto@tudominio.com
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <span class="detail-icon">⌖</span>
+                        <div>
+                            <small>Dirección</small>
+                            <p>Tu dirección, ciudad, Bolivia</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <span class="detail-icon">◷</span>
+                        <div>
+                            <small>Horario de atención</small>
+                            <p>Lunes a viernes · 08:00 a 17:00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-box reveal">
+                    <h3>Envíanos un mensaje</h3>
+                    <p>Completa los siguientes datos
